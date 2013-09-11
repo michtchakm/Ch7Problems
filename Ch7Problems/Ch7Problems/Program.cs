@@ -9,6 +9,8 @@ namespace Ch7Problems
     {
         static void Main(string[] args)
         {
+            Pizza pepperoni = new Pizza();
+            pepperoni.Topping = "pepperoni";
         }
     }
 }

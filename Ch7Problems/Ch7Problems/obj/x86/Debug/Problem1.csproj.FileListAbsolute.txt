@@ -1,0 +1,5 @@
+C:\Users\eahscs\Documents\GitHub\Ch7Problems\Ch7Problems\Ch7Problems\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\eahscs\Documents\GitHub\Ch7Problems\Ch7Problems\Ch7Problems\bin\Debug\Ch7Problems.exe
+C:\Users\eahscs\Documents\GitHub\Ch7Problems\Ch7Problems\Ch7Problems\bin\Debug\Ch7Problems.pdb
+C:\Users\eahscs\Documents\GitHub\Ch7Problems\Ch7Problems\Ch7Problems\obj\x86\Debug\Ch7Problems.exe
+C:\Users\eahscs\Documents\GitHub\Ch7Problems\Ch7Problems\Ch7Problems\obj\x86\Debug\Ch7Problems.pdb
