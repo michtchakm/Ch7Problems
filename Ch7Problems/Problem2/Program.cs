@@ -9,15 +9,20 @@ namespace Ch7Problems
     {
         static void Main(string[] args)
         {
-            Pizza pizza = new Pizza();
-            pizza.Topping = "pepperoni";
+            HousePlant tree = new HousePlant();
+            tree.Name = "Tree";
+            tree.Fed = false;
+            tree.Price = 29.99;
 
-            Pizza size = new Pizza();
-            pizza.Diameter = 12;
+            HousePlant fern = new HousePlant();
+            fern.Name = "fern";
+            tree.Fed = false;
+            tree.Price = 42.42;
 
-            Pizza price = new Pizza();
-            pizza.Price = 13.99;
+            HousePlant ivy = new HousePlant();
+            ivy.Name = "ivy";
+            fern.Fed = true;
+            fern.Price = 9000.01;
         }
     }
 }
-
