@@ -5,33 +5,33 @@ using System.Text;
 
 namespace Ch7Problems
 {
-    class Pizza
+    class HousePlant
     {
-        private string topping;
-        private int diameter;
+        private string name;
+        private int fed;
         private double price;
 
-        public string Topping
+        public string Name
         {
             get
             {
-                return topping;
+                return name;
             }
             set
             {
-                topping = value;
+                 name = value;
             }
         }
 
-        public int Diameter
+        public int Fed
         {
             get
             {
-                return diameter;
+                return fed;
             }
             set
             {
-                diameter = 12;
+                fed = true;
             }
         }
         public double Price
@@ -42,7 +42,7 @@ namespace Ch7Problems
             }
             set
             {
-                Price = 13.99;
+                Price = 29.99;
             }
         }
     }

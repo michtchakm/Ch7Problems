@@ -5,10 +5,10 @@ using System.Text;
 
 namespace Ch7Problems
 {
-    class Pizza
+    class Friend
     {
-        private string topping;
-        private int diameter;
+        private string name;
+        private int 
         private double price;
 
         public string Topping

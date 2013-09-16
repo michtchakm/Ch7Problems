@@ -7,42 +7,32 @@ namespace Ch7Problems
 {
     class Pizza
     {
-        private string topping;
-        private int diameter;
-        private double price;
+        private double radius;
 
-        public string Topping
+        public double Radius 
         {
             get
             {
-                return topping;
+                return Radius;
             }
             set
             {
-                topping = value;
+                Radius = value;
             }
         }
 
-        public int Diameter
+        public double Diameter
         {
             get
             {
-                return diameter;
-            }
-            set
-            {
-                diameter = 12;
+                return radius * 2;
             }
         }
-        public double Price
+        public double Area
         {
             get
             {
-                return Price;
-            }
-            set
-            {
-                Price = 13.99;
+                return Math.PI * radius * radius;
             }
         }
     }

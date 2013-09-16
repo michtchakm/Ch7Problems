@@ -7,11 +7,11 @@ namespace Ch7Problems
 {
     class Pizza
     {
-        private string topping;
-        private int diameter;
+        private string name;
+        private int troop;
         private double price;
 
-        public string Topping
+        public string 
         {
             get
             {
