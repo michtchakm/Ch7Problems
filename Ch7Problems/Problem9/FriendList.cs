@@ -8,42 +8,48 @@ namespace Ch7Problems
     class Friend
     {
         private string name;
-        private int 
-        private double price;
+        private int phonenumber;
+        private int birthdayyear;
+        private int birthdaymonth;
+        private int birthdayday;
 
-        public string Topping
+        public string Name
         {
             get
             {
-                return topping;
+                return Name;
             }
             set
             {
-                topping = value;
+                Name = value;
             }
         }
 
-        public int Diameter
+        public int PhoneNumber
         {
             get
             {
-                return diameter;
+                return PhoneNumber;
             }
             set
             {
-                diameter = 12;
+                PhoneNumber = value;
             }
         }
-        public double Price
+        public int BirthdayYear
         {
             get
             {
-                return Price;
+                return BirthdayYear;
             }
             set
             {
-                Price = 13.99;
+                BirthdayYear = value;
             }
         }
+        public int BirthdayMonth;
+        {
+            get
+
     }
 }

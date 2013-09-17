@@ -5,44 +5,44 @@ using System.Text;
 
 namespace Ch7Problems
 {
-    class Pizza
+    class GirlScout
     {
         private string name;
         private int troop;
-        private double price;
+        private double dues;
 
-        public string 
+        public string Name
         {
             get
             {
-                return topping;
+                return Name;
             }
             set
             {
-                topping = value;
+                Name = value;
             }
         }
 
-        public int Diameter
+        public int Troop
         {
             get
             {
-                return diameter;
+                return troop;
             }
             set
             {
-                diameter = 12;
+                troop = value;
             }
         }
-        public double Price
+        public double Dues
         {
             get
             {
-                return Price;
+                return Dues;
             }
             set
             {
-                Price = 13.99;
+                Dues = 13.99;
             }
         }
     }

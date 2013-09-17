@@ -9,14 +9,14 @@ namespace Ch7Problems
     {
         static void Main(string[] args)
         {
-            Pizza pizza = new Pizza();
-            pizza.Topping = "pepperoni";
+            Circle circle = new Circle();
+            circle.Radius = 2;
 
-            Pizza size = new Pizza();
-            pizza.Diameter = 12;
+            Circle circle1 = new Circle();
+            circle.Radius = 60;
 
-            Pizza price = new Pizza();
-            pizza.Price = 13.99;
+            Circle circle2 = new Circle();
+            circle2.Radius = 5000000000000000;
         }
     }
 }

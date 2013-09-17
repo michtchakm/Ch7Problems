@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Ch7Problems
 {
-    class Pizza
+    class Circle
     {
         private double radius;
 
