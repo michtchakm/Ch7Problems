@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Ch7Problems
+namespace Problem9
 {
     class Friend
     {
@@ -12,6 +12,7 @@ namespace Ch7Problems
         private int birthdayyear;
         private int birthdaymonth;
         private int birthdayday;
+        public static string FriendList = "Name, Birthday Month and Year and Day, Phone Number";
 
         public string Name
         {
@@ -21,7 +22,7 @@ namespace Ch7Problems
             }
             set
             {
-                Name = value;
+                name = value;
             }
         }
 
@@ -29,27 +30,46 @@ namespace Ch7Problems
         {
             get
             {
-                return PhoneNumber;
+                return phonenumber;
             }
             set
             {
-                PhoneNumber = value;
+                phonenumber = value;
             }
         }
         public int BirthdayYear
         {
             get
             {
-                return BirthdayYear;
+                return birthdayyear;
             }
             set
             {
-                BirthdayYear = value;
+                birthdayyear = value;
             }
         }
-        public int BirthdayMonth;
+        public int BirthdayMonth
         {
             get
+            {
+                return birthdaymonth;
+            }
+            set
+            {
+                birthdaymonth = value;
+            }
 
+        }
+             public int BirthdayDay
+        {
+            get
+            {
+                return birthdayday;
+            }
+            set
+            {
+                birthdayday = value;
+            }
+        }
     }
 }

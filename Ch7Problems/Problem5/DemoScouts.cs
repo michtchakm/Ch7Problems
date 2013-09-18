@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Ch7Problems
+namespace Problem5
 {
     class GirlScout
     {
         private string name;
         private int troop;
         private double dues;
+        public static string Motto = "to obey the Girl Scout Law";
 
         public string Name
         {

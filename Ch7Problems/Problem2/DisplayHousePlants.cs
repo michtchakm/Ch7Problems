@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Ch7Problems
+namespace Problem2
 {
     class HousePlant
     {
         private string name;
-        private int fed;
+        private bool fed;
         private double price;
 
         public string Name
@@ -23,7 +23,7 @@ namespace Ch7Problems
             }
         }
 
-        public int Fed
+        public bool Fed
         {
             get
             {
