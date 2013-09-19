@@ -5,14 +5,14 @@ using System.Text;
 
 namespace Problem9
 {
-    class Friend
+    class Friend : IComparable
     {
         private string name;
         private int phonenumber;
         private int birthdayyear;
         private int birthdaymonth;
         private int birthdayday;
-        public static string FriendList = "Name, Birthday Month and Year and Day, Phone Number";
+        
 
         public string Name
         {
@@ -60,7 +60,8 @@ namespace Problem9
             }
 
         }
-             public int BirthdayDay
+
+        public int BirthdayDay
         {
             get
             {
@@ -71,5 +72,18 @@ namespace Problem9
                 birthdayday = value;
             }
         }
+      int IComparable.CompareTo (Object o)
+      {
+          int returnVal;
+           temp.PhoneNumber = ()o;
+          if(this.BirthdayMonth > temp.BirthdayMonth )
+              returnVal = 1;
+          else
+              if(this.BirthdayMonth < temp.BirthdayMonth )
+                  returnVal= = -1;
+              else
+                 returnVal = 0;
+          return returnVal;
+      }
     }
 }

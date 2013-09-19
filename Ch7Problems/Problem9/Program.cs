@@ -9,7 +9,6 @@ namespace Problem9
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Friend.FriendList);
             Friend[] friend = new Friend[8];
             int x;
             string Name;

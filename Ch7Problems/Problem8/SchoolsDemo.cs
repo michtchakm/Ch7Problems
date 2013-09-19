@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Problem8
 {
-    class School
+    class School : IComparable
     {
         private string schoolname;
         private int enrollmentnumber;
