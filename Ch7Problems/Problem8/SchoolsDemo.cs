@@ -34,5 +34,18 @@ namespace Problem8
                 enrollmentnumber = value;
             }
         }
+        int IComparable.CompareTo(Object o)
+        {
+            int returnVal;
+            School temp = (School)o;
+            if (this.EnrollmentNumber > temp.EnrollmentNumber)
+                returnVal = 1;
+            else
+                if (this.EnrollmentNumber < temp.EnrollmentNumber)
+                    returnVal = -1;
+                else
+                    returnVal = 0;
+            return returnVal;
+        }
     }
 }
